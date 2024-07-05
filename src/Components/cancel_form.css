@@ -1,0 +1,78 @@
+.header {
+    background-color: orange;
+    width: 40%;
+    position: relative;
+    left: 30%;
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  .cancel_form_container {
+    padding: 5%;
+    padding-top: 2%;
+    border: solid;
+    width: 60%;
+    position: relative;
+    left: 15%;
+    font-size: x-large;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cancel_order_reason {
+    width: 80%;
+    height: 70px;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: medium;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+  }
+  
+  .button-container {
+    margin-top: 10px;
+  }
+  
+  .button-container button {
+    display: block;
+    margin: 10px 0;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: medium;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .button-container button:hover {
+    background-color: #ffcc00;
+    transform: scale(1.05);
+  }
+  
+  .cancel_order_submit {
+    background-color: #1e73be ;  ;
+    color: white;
+    font-size: large;
+    width: 20%;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+    left: 40%;
+    top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .cancel_order_submit:hover {
+    background-color: #0d375c ;
+    transform: scale(1.1);
+  }
+  .img_order{
+    position: relative;
+    top:-10px;
+  }
+  

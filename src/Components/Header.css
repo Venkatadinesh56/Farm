@@ -1,0 +1,395 @@
+/* Header Styles */
+.header {
+  height: 70px;
+  background-color: #f8b400; /* Dark background */
+  color: #25693f; /* Light text */
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: auto ;
+  font-family: 'Arial', sans-serif; /* Set a default font */
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 1.8em;
+  color: green
+}
+
+.navigation {
+  
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  position: relative;
+  right: 300px;
+  top: 16px;
+ 
+  width: 900px;
+
+}
+
+.navigation ul {
+  width: 1080px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  float:right;
+}
+.navigation ul li Link,
+.navigation ul li {
+  
+  text-decoration: none;
+  color: #333; /* Gold color for links */
+  transition: color 0.3s; /* Smooth transition for hover effect */
+  font-weight: bold;
+  cursor: pointer;
+  position: relative;
+  left:350px;
+  
+  
+}
+
+.navigation ul li a:hover,
+.navigation ul li:hover {
+  color: green/* Darker gold on hover */;
+
+  
+}
+
+/* Main container */
+.main-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+/* Toggle form button */
+.toggle-form-button {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: #e28420;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Backdrop */
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Form container */
+.login-signup-form-container {
+  background: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+  width: 400px;
+  text-align: center;
+}
+
+/* Hide button */
+.hide-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: #333;
+}
+
+/* Buttons container */
+.buttons-container {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.login-button, .signup-button {
+  background-color: #e28420;
+  color: #ccc;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+  flex: 1;
+}
+
+.login-button.active {
+  background-color: #e28420;
+  color: #fff;
+}
+
+.signup-button.active {
+  background-color: #e28420;
+  color: #fff;
+}
+
+.sign-in-button, .sign-up-button {
+  background-color: #febd00;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Disable button when terms are not accepted */
+.sign-up-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Input container */
+.input-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  background: #f4f4f4;
+  border-radius: 4px;
+  padding: 10px;
+  border: 1px solid transparent;
+}
+
+.input-container input {
+  border: none;
+  background: transparent;
+  margin-left: 10px;
+  width: 100%;
+  padding: 8px;
+  outline: none;
+}
+
+.input-container input:focus {
+  border: none;
+  outline: none;
+}
+
+.input-container:focus-within {
+  border-color: #e28420;
+}
+
+.eye-icon {
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.terms-container {
+  margin-right: 5px;
+}
+
+.remember-forgot-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 2rem;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Align items vertically */
+  flex-wrap: wrap;
+}
+
+.footer-section-1 {
+  flex: 1;
+  margin: 1rem;
+  text-align: left;
+  color: #f8b400;
+}
+
+.footer-section-2,
+.footer-section-3 {
+  flex: 1;
+  margin: 1rem;
+  text-align: left;
+  color: #f8b400;
+}
+
+.footer-section-3 {
+  padding-right: 150px; /* Adjust padding */
+}
+
+.footer-section h3,
+.footer-section h4 {
+  color: #f8b400;
+  margin-bottom: 1rem;
+}
+
+.footer-section p,
+.footer-section ul {
+  color: #fff;
+}
+
+.quick-links,
+.menu-links {
+  list-style-type: none; /* Removes bullet points */
+  padding: 0;
+  text-align: left;
+  color: #ccc;
+  display: list-item; /* Display flex to make items side by side */
+  gap: 1rem; /* Gap between items */
+  margin: auto;
+}
+
+.quick-links li,
+.menu-links li {
+  margin: 2px;
+  padding-left: 10px;
+}
+
+.quick-links a,
+.menu-links a {
+  color: #fff; /* Changes link color to white */
+  text-decoration: none; /* Removes the underline from links */
+}
+
+.quick-links a:hover,
+.menu-links a:hover {
+  color: #f8b400; /* Changes link color on hover */
+}
+
+.social-icons {
+  display: block;
+  gap: 10px; /* Gap between social icons */
+  margin-right: 50px; /* Add margin to the right side */
+}
+
+.social-icons a {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.social-icons a:hover {
+  color: #f8b400;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 2rem;
+  color: #ccc;
+  font-weight: 600;
+}
+
+.booking-page {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 50px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.booking-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.description {
+  width: 40%;
+}
+
+.description h2 {
+  margin-top: 0;
+}
+
+.description p {
+  margin: 5px 0;
+}
+
+.calendar {
+  width: 55%;
+}
+
+.calendar-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.calendar-grid button {
+  padding: 10px;
+  background: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.calendar-grid button.selected {
+  background: #ffd200;
+  color: #fff;
+}
+
+.time-slots {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.time-slots button {
+  padding: 10px;
+  background: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.time-slots button.selected {
+  background: #ffd200;
+  color: #fff;
+}
+
+.footer {
+  text-align: right;
+  margin-top: 20px;
+}
+
+.next-button {
+  padding: 10px 20px;
+  background: #ffd200;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+
+
+
