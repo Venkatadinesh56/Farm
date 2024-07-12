@@ -1,0 +1,180 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.ship-container{
+    background-color: #f1f1f1;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    
+}
+.ship-head{
+    background-color: green;
+    height: 80px;
+    position: relative;
+    top: -42px;
+    left: -50px;
+    width: 105%;
+    color: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+main {
+    padding: 20px;
+}
+
+.shipping-policy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.shipping-image img {
+    width: 100%;
+    height: auto;
+}
+
+.shipping-content h1 {
+    font-size: 36px;
+    color: #FFA000;
+}
+
+.shipping-content h2 {
+    font-size: 24px;
+    color: #FFA000;
+}
+
+.shipping-content p {
+    font-size: 18px;
+}
+
+.shipping-details h2 {
+    font-size: 24px;
+    color: #FFA000;
+    margin-top: 20px;
+}
+
+.shipping-details p {
+    font-size: 18px;
+}
+
+footer {
+    background-color: #f1f1f1;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.footer-logo,
+.footer-social,
+.footer-links,
+.footer-quick-links,
+.footer-contact {
+    flex: 1;
+    margin: 10px;
+}
+
+.footer-logo img {
+    height: 40px;
+}
+
+.footer-social a img {
+    height: 30px;
+    margin: 0 10px;
+}
+
+.footer-links ul,
+.footer-quick-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li,
+.footer-quick-links ul li {
+    margin-bottom: 10px;
+}
+
+.footer-links ul li a,
+.footer-quick-links ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.footer-contact img {
+    height: 20px;
+    margin-right: 10px;
+}
+
+.footer-contact p {
+    margin: 5px 0;
+}
+
+.whatsapp-link img {
+    height: 40px;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cart span {
+    margin-right: 5px;
+    font-size: 18px;
+    color: #FFA000;
+}
+
+.cart img {
+    height: 40px;
+}

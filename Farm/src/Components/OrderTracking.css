@@ -1,0 +1,156 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://t3.ftcdn.net/jpg/06/56/85/88/360_F_656858801_EcfLj1rJkDsBdhLNQddiRVuUTPy9RZDf.jpg'); 
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .form-container {
+    text-align: center;
+    color: rgb(226, 211, 211);
+    padding: 40px 0;
+  }
+  
+  .form-content {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 500px;
+    border-radius: 10px;    
+  }
+  
+  .tracking-header {
+    margin-bottom: 20px;
+  }
+  
+  .tracking-info {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    color: black;
+    text-align: left;
+  }
+  
+  .tracking-info span {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .steps {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 20px;
+    align-items: center;
+  }
+  
+  .steps::before {
+    content: '';
+    position: absolute;
+    top: 25px;
+    left: 10%;
+    right: 10%;
+    height: 5px;
+    background: linear-gradient(to right, #00bfa5, #ffeb3b, #e0e0e0);
+    z-index: 0;
+    transform: translateY(-50%);
+    
+  }
+  
+  .step {
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .step-icon {
+    background-color: #e8eaec;
+    color: rgb(51, 136, 221);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 10px;
+    position: relative;
+    z-index: 2;
+  }
+  
+  .step.active .step-icon {
+    background-color: #ffeb3b;
+    color: white;
+  }
+  
+  .step.completed .step-icon {
+    background-color: rgb(0, 191, 165);
+    color: white;
+  }
+  
+  .shipping-address {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    color: black;
+    text-align: left;
+  }
+  
+  .shipping-address h3 {
+    margin-top: 0;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  
+  form button {
+    background-color: rgb(26, 35, 37);
+    color: rgb(237, 227, 227);
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  form button:hover {
+    background-color: #ffa200;
+  }
+  
+  .address-fields {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .address-fields input {
+    flex: 1;
+  }
+  
+  textarea {
+    width: 99%;
+    border-radius: 5px;
+    height: 80px;
+  }
+  
+  .address-box {
+    border: 10px solid white;
+  }
+  
+  .address-box p {
+    text-align: left;
+    padding-left: 30px;
+  }
+  .shipping-address h4{
+    text-align: center;
+    color: #ffa200;
+  }
+  .shipping-address p{
+    text-indent:1px;
+    font-size: 15px;
+  }
+
+  

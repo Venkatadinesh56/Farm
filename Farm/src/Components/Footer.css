@@ -1,0 +1,104 @@
+/* Footer.css */
+.footer {
+  background-color: #222; /* Darker background */
+  color: #fff; /* Light text */
+  padding: 40px 20px; /* Increased padding for more spacing */
+  text-align: center;
+  font-family: 'Arial', sans-serif; /* Set a default font */
+}
+
+.footer-section {
+  display: inline-block;
+  vertical-align: top;
+  margin: 20px;
+  width: 200px;
+  margin-left: 50px;
+}
+
+.footer-section h2 {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.footer-section h4 {
+  margin-bottom: 15px; /* Increased margin for better spacing */
+  font-size: 1.2em;
+  color: #ffcc00; /* Gold color for headers */
+  border-bottom: 2px solid #ffcc00; /* Gold border for headers */
+  padding-bottom: 5px; /* Padding below headers */
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px; /* Increased margin for better spacing */
+}
+
+.footer-section ul li a {
+  text-decoration: none;
+  color: #ffcc00; /* Gold color for links */
+  transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+.footer-section ul li a:hover {
+  text-decoration: underline;
+  color: #ff9900; /* Darker gold on hover */
+}
+
+.footer-section .logo {
+  width: 120px; /* Slightly larger logo */
+  height: auto;
+  margin-bottom: 10px; /* Space below the logo */
+}
+
+.social-media {
+  display: inline-block;
+  vertical-align: top;
+  margin: 20px;
+}
+
+.social-media h4 {
+  margin-bottom: 15px; /* Increased margin for better spacing */
+  font-size: 1.2em;
+  color: #ffcc00; /* Gold color for headers */
+  border-bottom: 2px solid #ffcc00; /* Gold border for headers */
+  padding-bottom: 5px; /* Padding below headers */
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px; /* Space between icons */
+  position: relative;
+  left: -100px;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  transition: transform 0.3s; /* Smooth transition for hover effect */
+  
+}
+
+.social-icons img.Social {
+  width: 40px; /* Larger icons */
+  height: 40px;
+  border-radius: 50%;
+  transition: transform 0.3s; /* Smooth transition for hover effect */
+  
+}
+
+.social-icons a:hover img.Social {
+  transform: scale(1.2); /* Scale up the icon on hover */
+}
+
+.footer-bottom {
+  margin-top: 30px; /* Increased margin for better spacing */
+  font-size: 0.9em;
+  color: #ccc; /* Light gray for the bottom text */
+  
+  width: 10000px;
+} 

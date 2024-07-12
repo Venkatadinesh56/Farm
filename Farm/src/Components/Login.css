@@ -1,0 +1,144 @@
+
+
+/* Main container */
+.main-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+/* Toggle form button */
+.toggle-form-button {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #e28420;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Backdrop */
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Form container */
+.login-signup-form-container {
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    width: 400px;
+    text-align: center;
+}
+
+/* Hide button */
+.hide-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: #333;
+}
+
+/* Buttons container */
+.buttons-container {
+    margin-bottom: 20px;
+}
+
+/* Buttons */
+.login-button, .signup-button {
+    background-color: #e28420;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    /* flex: 1; */
+}
+
+.login-button.active {
+    background-color: #e28420;
+    color: #fff;
+}
+.signup-button.active {
+    background-color: #e28420;
+    color: #fff;
+}
+
+.sign-in-button, .sign-up-button {
+    background-color: #febd00;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+/* Disable button when terms are not accepted */
+.sign-up-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+
+/* Input container */
+.input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    background: #f4f4f4;
+    border-radius: 4px;
+    padding: 10px;
+    border: 1px solid transparent;
+}
+
+.input-container input {
+    border: none;
+    background: transparent;
+    margin-left: 10px;
+    width: 100%;
+    padding: 8px;
+    outline: none;
+}
+
+.input-container input:focus {
+    border: none;
+    outline: none;
+}
+
+.input-container:focus-within {
+    border-color: #e28420;
+}
+
+.eye-icon {
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.terms-container {
+    margin-right: 5px;
+}
+.remember-forgot-container {
+    display: flex;
+    justify-content: space-between;
+}
+

@@ -1,0 +1,99 @@
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Container styling */
+.terms-container {
+  font-family: Arial, sans-serif; /* Changed to match the privacy policy */
+  background-color: white;
+  color: #333;
+  border-radius: 8px;
+  max-width: 100%;
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 0; /* To match the privacy policy */
+}
+
+/* Heading styling */
+.terms-container h1 {
+  background-color: #25693f;
+  color: white;
+  padding-top: 10px; /* Adjusted to match privacy policy */
+  padding-bottom: 10px; /* Adjusted to match privacy policy */
+  text-align: center;
+  font-size: 2.5em;
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+}
+
+.terms-container h2 {
+  color: #f8b400; /* Changed to match the privacy policy */
+  margin-top: 1.5rem; /* Adjusted to match privacy policy */
+  margin-bottom: 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Paragraph styling */
+.terms-container p,
+.terms-container ul {
+  line-height: 1.6;
+
+}
+
+.terms-container ul {
+  padding-left: 20px;
+}
+
+.terms-container li {
+  margin-bottom: 10px;
+}
+
+.terms-container address {
+  font-style: normal;
+  line-height: 1.6;
+}
+
+/* Styling for specific content sections */
+.terms-content {
+  background-color: #ffffff;
+  padding: 2rem; /* Adjusted to match privacy policy */
+  max-width: fit-content; /* Added to match privacy policy */
+  margin: 0 auto; /* Added to match privacy policy */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+/* Add some spacing between the content sections */
+.terms-content h2 + p {
+  margin-top: 15px;
+}
+
+.terms-content p + h2 {
+  margin-top: 0px;
+}
+
+/* Add some spacing between the paragraphs */
+.terms-content p + p {
+  margin-top: 10px;
+}
+
+/* Hover effects for better user interaction */
+.terms-container h1:hover,
+.terms-container h2:hover {
+  color: #16a085;
+}
+
+/* Add a border to the container */
+.terms-container {
+  border: 0px;
+}
+
+/* Style links if any */
+.terms-container a {
+  color: #2980b9;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+
+.terms-container a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,109 @@
+.product-detail-header {
+  text-align: center;
+  color: darkgoldenrod;
+  
+  flex-direction: row;
+  justify-content: start;
+  background-color: rgba(0, 0, 0, 0.7); /* Add a dark transparent background */
+  padding: 20px;
+  border-radius: 8px;
+  width: 30%;
+  position: relative;
+  left: 500px;
+}
+
+.product-detail {
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  color: white; /* Default text color to white for better visibility */
+}
+
+.product-details-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  background-color: rgba(0, 0, 0, 0.7); /* Add a dark transparent background */
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.product-image-container {
+  width: auto;
+  height: auto;
+  margin-right: 10%;
+  border: none;
+}
+
+.product-info {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.product-name {
+  font-size: 32px; /* Increase font size */
+  font-weight: bold;
+  color: #FFD700; /* Gold color for better visibility */
+  margin-bottom: 10px;
+}
+
+.product-price {
+  font-size: 28px; /* Increase font size */
+  color: #FFA500; /* Orange color */
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.additional-info p {
+  font-size: 18px; /* Increase font size */
+  color: #FFFFFF; /* White color */
+  margin-bottom: 10px;
+}
+
+.add-to-cart-button, .buy-now-button {
+  padding: 10px 20px;
+  background-color: #FF9900;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 20px; /* Increase font size */
+  transition: background-color 0.3s ease;
+  margin-bottom: 10px;
+}
+
+.add-to-cart-button:hover, .buy-now-button:hover {
+  background-color: #FFAD33;
+}
+
+.product-description-container {
+  width: 96.5%;
+  flex: 1;
+  background-color: rgba(0, 0, 0, 0.7); /* Add a dark transparent background */
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+  position: relative;
+  top: -20px;
+}
+
+.product-description-container h3 {
+  font-size: 28px; /* Increase font size */
+  font-weight: bold;
+  color: #FFD700; /* Gold color */
+  margin-bottom: 10px;
+}
+
+.product-introduction-container {
+  font-size: 20px; /* Increase font size */
+  color: #FFFFFF; /* White color */
+  margin-bottom: 20px;
+}
+
+.product-description-container p {
+  font-size: 18px; /* Increase font size */
+  color: #FFFFFF; /* White color */
+  margin-bottom: 20px;
+}

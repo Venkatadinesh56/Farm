@@ -1,0 +1,131 @@
+.cart-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color:transparent;
+  padding: 20px;
+}
+.cart-wrapper {
+    width: 50%;
+    margin: 0 auto;
+    background-color:none;
+    padding: 20px;
+    border-radius: 10px;
+    float: left;
+   position: relative;
+   left: -250px;
+
+  }
+  
+  .cart-header {
+    margin-bottom: 20px;
+  }
+  
+  .cart-container {
+  width: 95%;
+   
+    border: 1px solid none4;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+  
+  }
+  
+  .cart-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+  }
+  
+  .cart-table th,
+  .cart-table td {
+    padding: 15px;
+    text-align: left;
+  }
+  
+  .cart-table th {
+    background-color: #25693f;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .cart-image {
+    width: 150px;
+    border-radius: 10px;
+  }
+  
+  .update-cart-button {
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: large;
+    background-color: orange;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    position: relative;
+    left: 30%;
+  }
+  
+  .update-cart-button:hover {
+    background-color: rgb(135, 93, 15);
+  }
+  
+  .update-button-cell {
+    text-align: right;
+  }
+  
+  .cart-summary {
+    width: 30%;
+    margin: 20px auto;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+   
+    padding: 20px;
+    position: relative;
+    float: right;
+    position: relative;
+    top:100px;
+    right: 60px;
+    position: absolute;
+  }
+  
+  .cart-summary h2 {
+    text-align: center;
+    color: #ff5722;
+    margin-bottom: 20px;
+  }
+  
+  .cart-summary .cart-left-text {
+    color: #ff5722;
+    font-size: large;
+  }
+  
+  .cart-summary .cart-right-text {
+    color: #333;
+    font-size: large;
+    font-weight: bold;
+  }
+  
+  .cart-summary .shipping {
+    margin-top: 20px;
+  }
+  
+  .cart-summary button {
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ff5722;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .cart-summary button:hover {
+    background-color: #e64a19;
+  }
+  

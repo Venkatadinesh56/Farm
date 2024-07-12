@@ -1,0 +1,141 @@
+body {
+  font-family: 'Merriweather', serif;
+  background-color: #fafafa;
+  color: #444;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+.temple-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f3f3f3;
+}
+
+.temple-card {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 30px;
+  padding: 10px;
+  background-color: #fff;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: justify;
+  transition: transform 0.3s, box-shadow 0.3s;
+  position: relative;
+}
+
+.temple-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.temple-name {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: #F8C057;
+  text-align: center;
+  font-weight: bold;
+}
+
+.temple-content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.temple-images {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.temple-image {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.temple-image:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transform: scale(1.02);
+}
+
+.temple-details {
+  width: 70%;
+  margin-left: 20px;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+}
+
+.temple-details.expanded {
+  max-height: none;
+}
+
+.temple-legend,
+.section-content {
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.section-title {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  color: #25693F;
+  border-left: 4px solid #25693F;
+  padding-left: 12px;
+  font-weight: bold;
+}
+
+.read-more-btn {
+  background-color: #F8C057;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s, transform 0.3s;
+  margin: 20px auto;
+  display: block;
+}
+
+.read-more-btn:hover {
+  background-color: #e5a843;
+  transform: translateY(-2px);
+}
+
+.read-more-btn:active {
+  transform: translateY(0);
+}
+
+@media (max-width: 768px) {
+  .temple-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .temple-images, .temple-details {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .temple-name {
+    font-size: 1.5rem;
+  }
+
+  .section-title {
+    font-size: 1.3rem;
+  }
+
+  .map-frame {
+    height: 300px;
+  }
+}

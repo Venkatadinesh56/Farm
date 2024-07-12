@@ -1,0 +1,104 @@
+ 
+   
+
+
+.containerk {
+    
+    margin: 20px 20px;
+    padding: 20px;
+    
+    
+    
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(1px);
+    min-height: fit-content;
+
+}
+
+.payment-container {
+    padding-top: 60px;
+    display: flex;
+    width: 60%;
+    position: relative;
+    left: 25%;
+    text-align: left;
+    margin-bottom: 30px;
+   
+   
+    
+}
+
+.payment-section {
+    width: 30%;
+    background-color: #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    float: left;
+
+}
+
+.order-summary {
+    height: 250px;
+    width: 250px;
+    position: relative;
+    left: 20%;
+    top: 40px;
+}
+
+
+
+.address-section, .payment-options, .order-summary {
+    margin-bottom: 20px;
+
+}
+
+.payment-options label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.payment-options input {
+    margin-right: 10px;
+}
+
+.card-details, .upi-details, .cod-details {
+    margin-top: 20px;
+   
+}
+
+
+.card-details input, .upi-details input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.pay-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #ff7043;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.pay-button:hover {
+    background-color: #ff5722;
+}
+
+.order-summary {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff8e1;
+}

@@ -1,0 +1,73 @@
+.order-history {
+  padding: 20px;
+ 
+  width: 60%;
+  position: relative;
+  left: 20%;
+}
+
+.order-card {
+  background-color: #e0f7faca;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 10px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.order-header {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  margin-bottom: 10px;
+  background-color:#f8b400;
+  height: 50px;
+ 
+  
+}
+
+.order-items {
+  margin-bottom: 10px;
+  
+}
+
+.order-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+  
+
+}
+
+.order-detailssk {
+  
+  font-size: 0.9em;
+  color: #555;
+  text-align: left;
+}
+
+.order-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.track-button, .cancel-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cancel-button {
+  background-color: #dc3545;
+}
+
+.track-button:hover, .cancel-button:hover {
+  opacity: 0.8;
+}
+.textorder{
+  position: relative;
+  top:"50px";
+}
