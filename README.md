@@ -4,7 +4,7 @@
 
 <p id="description">MERN Stack E -Commerce Platform With Full Functionality</p>
 
-<h2>Project Screenshots:</h2>
+<h2>Project Screenshots:</h2> 
 
 <img src="https://i.postimg.cc/d0PdX60W/Whats-App-Image-2024-07-05-at-10-22-15-7d0e04fe.jpg" alt="project-screenshot" width="600" height="600/">
 
