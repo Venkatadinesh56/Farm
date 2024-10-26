@@ -8,6 +8,11 @@
 <img src="https://drive.usercontent.google.com/download?id=1_9brN5AmSVHaf8ntf9-E9kfXe5uXWC57&authuser=0" style="max-width: 100%; height: auto;" /> 
 <h2>Login Page</h2>
 <img src="https://drive.usercontent.google.com/download?id=1_9brN5AmSVHaf8ntf9-E9kfXe5uXWC57&authuser=0" style="max-width: 100%; height: auto;" /> 
+<h2> Visit Us Page</h2>
+<img src="https://drive.usercontent.google.com/download?id=1rKy2sI2lAwNatHvG4EYk8Z9qJEuDOyNY&authuser=0" style="max-width: 100%; height: auto;" /> 
+<img src="https://drive.usercontent.google.com/download?id=1PRYoO4C-P7baUtzf7hAvhSRj5RkoncA3&authuser=0" style="max-width: 100%; height: auto;" /> 
+<img src="https://drive.usercontent.google.com/download?id=1v5C3oqbQm-nvOauPBW4xBTZV846DMrSA&authuser=0" style="max-width: 100%; height: auto;" /> 
+
 
 <p id="description">MERN Stack E -Commerce Platform With Full Functionality</p>
 
