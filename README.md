@@ -27,6 +27,13 @@
 <h2>Gallery</h2>
 <img src="https://drive.usercontent.google.com/download?id=1covUinZ_J9S2P9glk0wad56aExhLOZnM&authuser=0" style="max-width: 100%; height: auto;" /> 
 <img src="https://drive.usercontent.google.com/download?id=1_fRnfqWGFvUe9mdhxO7dV6RvxBqZMFxd&authuser=0" style="max-width: 100%; height: auto;" /> 
+<h2>Shopping Cart Page</h2>
+<img src="https://drive.usercontent.google.com/download?id=1b2UVaovk_baqs1I_mOf-LitVyjf2ab5Y&authuser=0" style="max-width: 100%; height: auto;" /> 
+<h2>Address Page</h2>
+<img src="https://drive.usercontent.google.com/download?id=1QXCiaEvHFCtuT-AY4hsC4UZCAe6ry4PS&authuser=0" style="max-width: 100%; height: auto;" /> 
+<h2>Payment Page</h2>
+<img src="https://drive.usercontent.google.com/download?id=1b2UVaovk_baqs1I_mOf-LitVyjf2ab5Y&authuser=0" style="max-width: 100%; height: auto;" /> 
+
 
 <p id="description">MERN Stack E -Commerce Platform With Full Functionality</p>
 
