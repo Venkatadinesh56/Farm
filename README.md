@@ -1,6 +1,8 @@
 <h1 align="center" id="title">The Mango Farm</h1>
 <h2> Home Page</h2>
 <img src="https://drive.usercontent.google.com/download?id=1DRIbGYf39jNYdMcyajcmaePTx321yOqW&authuser=0" style="max-width: 100%; height: auto;" /> 
+<img src="https://drive.usercontent.google.com/download?id=14jHfkQUhXbkxSV3VPugyAT-GpZuT6Z2o&authuser=0" style="max-width: 100%; height: auto;" /> 
+<img src="https://drive.usercontent.google.com/download?id=1vZmEGps7lbFzYExDNQTuHFJYbZCfMreN&authuser=0" style="max-width: 100%; height: auto;" /> 
 
 <p id="description">MERN Stack E -Commerce Platform With Full Functionality</p>
 
