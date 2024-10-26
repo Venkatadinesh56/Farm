@@ -19,7 +19,7 @@
 <h2>Gosala Page</h2>
 <img src="https://drive.usercontent.google.com/download?id=1WKtEwcO7Kxf5tePxJ0HIeQzKoZ5r55Xh&authuser=0" style="max-width: 100%; height: auto;" /> 
 <h2> Blogs Page</h2>
-<img src="https://drive.google.com/file/d/1bosh8rBjGl3P3s3HZiF2uVcIigs_I38Z/view?usp=sharing" style="max-width: 100%; height: auto;" /> 
+<img src="https://drive.usercontent.google.com/download?id=1bosh8rBjGl3P3s3HZiF2uVcIigs_I38Z&authuser=0" style="max-width: 100%; height: auto;" /> 
 <h2>Near Us Page</h2>
 <img src="https://drive.usercontent.google.com/download?id=1_s9qx_xQch7kkXD02ktey2TGQPLlqdK2&authuser=0" style="max-width: 100%; height: auto;" /> 
 <h2>About Us</h2>
