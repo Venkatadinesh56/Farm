@@ -1,6 +1,34 @@
 <h1 align="center" id="title">The Mango Farm</h1>
 <h2>Introduction</h2>
 <p>MangoFarm is a dynamic web application developed to manage and showcase the diverse offerings of a mango farm business. Built using React.js for a seamless, interactive user interface, MongoDB for robust data management, and Node.js for efficient backend operations, MangoFarm provides an engaging platform for users to explore different mango varieties, understand farming practices, and place orders directly. The site includes features like a product catalog, order management, and insightful content on mango cultivation, helping customers connect with the farm’s fresh produce. MangoFarm not only supports a streamlined business model but also creates an accessible, enjoyable experience for mango lovers everywhere.</p>
+
+<h2>🧐 Features</h2>
+
+Here're some of the project's best features:
+
+*   Login
+*   Cart
+*   Order Status
+*   Payment
+*   Visit Booking
+*   Near By Attarctions
+*   About Us
+
+  
+  
+<h2>💻 Built with</h2>
+
+Technologies used in the project:
+
+*   Mongo DB
+*   React Js
+*   Express Js
+*   Node Js
+*   HTML
+*   CSS
+*   Js
+*   Git
+*   Github
 <h2> Home Page</h2>
 <img src="https://drive.usercontent.google.com/download?id=1DRIbGYf39jNYdMcyajcmaePTx321yOqW&authuser=0" style="max-width: 100%; height: auto;" /> 
 <img src="https://drive.usercontent.google.com/download?id=14jHfkQUhXbkxSV3VPugyAT-GpZuT6Z2o&authuser=0" style="max-width: 100%; height: auto;" /> 
@@ -42,30 +70,4 @@
 
   
   
-<h2>🧐 Features</h2>
 
-Here're some of the project's best features:
-
-*   Login
-*   Cart
-*   Order Status
-*   Payment
-*   Visit Booking
-*   Near By Attarctions
-*   About Us
-
-  
-  
-<h2>💻 Built with</h2>
-
-Technologies used in the project:
-
-*   Mongo DB
-*   React Js
-*   Express Js
-*   Node Js
-*   HTML
-*   CSS
-*   Js
-*   Git
-*   Github
