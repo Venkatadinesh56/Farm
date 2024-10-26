@@ -32,7 +32,7 @@
 <h2>Address Page</h2>
 <img src="https://drive.usercontent.google.com/download?id=1QXCiaEvHFCtuT-AY4hsC4UZCAe6ry4PS&authuser=0" style="max-width: 100%; height: auto;" /> 
 <h2>Payment Page</h2>
-<img src="https://drive.usercontent.google.com/download?id=1b2UVaovk_baqs1I_mOf-LitVyjf2ab5Y&authuser=0" style="max-width: 100%; height: auto;" /> 
+<img src="https://drive.usercontent.google.com/download?id=1qwg7qgK_mE-14rtL8s5pjnErhmbBCdRV&authuser=0" style="max-width: 100%; height: auto;" /> 
 
 
 <p id="description">MERN Stack E -Commerce Platform With Full Functionality</p>
