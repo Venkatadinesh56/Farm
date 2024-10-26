@@ -5,7 +5,7 @@
 <img src="https://drive.usercontent.google.com/download?id=1vZmEGps7lbFzYExDNQTuHFJYbZCfMreN&authuser=0" style="max-width: 100%; height: auto;" /> 
 
 <h2> Signup Page </h2>
-<img src="https://drive.google.com/file/d/1_9brN5AmSVHaf8ntf9-E9kfXe5uXWC57/view?usp=sharing" style="max-width: 100%; height: auto;" /> 
+<img src="https://drive.usercontent.google.com/download?id=1_9brN5AmSVHaf8ntf9-E9kfXe5uXWC57&authuser=0" style="max-width: 100%; height: auto;" /> 
 <h2>Login Page</h2>
 <img src="https://drive.usercontent.google.com/download?id=1_9brN5AmSVHaf8ntf9-E9kfXe5uXWC57&authuser=0" style="max-width: 100%; height: auto;" /> 
 
