@@ -1,6 +1,6 @@
 <h1 align="center" id="title">The Mango Farm</h1>
 <h2>Introduction</h2>
-<p>MangoFarm is a dynamic web application developed to manage and showcase the diverse offerings of a mango farm business. Built using React.js for a seamless, interactive user interface, MongoDB for robust data management, and Node.js for efficient backend operations, MangoFarm provides an engaging platform for users to explore different mango varieties, understand farming practices, and place orders directly. The site includes features like a product catalog, order management, and insightful content on mango cultivation, helping customers connect with the farm’s fresh produce. MangoFarm not only supports a streamlined business model but also creates an accessible, enjoyable experience for mango lovers everywhere.</p>
+<p>MangoFarm is a dynamic web application developed to manage and showcase the diverse offerings of a mango farm business. Built using React.js for a seamless, interactive user interface, MongoDB for robust data management, and Node.js for efficient backend operations, MangoFarm provides an engaging platform for users to explore different mango varieties, understand farming practices, and place orders directly. The site includes features like a product catalog, order management, and insightful content on mango cultivation, helping customers connect with the farm’s fresh produce. MangoFarm not only supports a streamlined business model but also creates an accessible, enjoyable experience for mango lovers everywhere.</p> 
 
 <h2>🧐 Features</h2>
 
